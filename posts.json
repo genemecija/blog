@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "date": "2020-04-02",
+        "title": "My First Post",
+        "filename": "testPost.md"
+    },
+    {
+        "id": 2,
+        "date": "2020-04-03",
+        "title": "My Second Post",
+        "filename": "secondPost.md"
+    }
+]
