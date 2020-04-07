@@ -10,7 +10,7 @@ For my use case, implementing the switch, routes, and links of React Router were
 ### React Router 404
 I could visit each section via the navbar links, however, when attempting to visit a section or blog post via entering the URL directly in the browser, I was presented a 404 page:
 
-![react-router-404](urlhere "react-router-404")
+<img src="https://raw.githubusercontent.com/genemecija/blog/master/media/images/react-router-404-screenshot.png" alt="react-router-404" width="400">
 
 This wasn't a 404 page I built or was routing to, so that meant off to the internet to find a solution. Lo and behold, this StackOverflow [solution](https://stackoverflow.com/a/39118509/9727835) for the question ***"react-router - im getting 404 after adding route"*** clued me in on what was wrong:
 
