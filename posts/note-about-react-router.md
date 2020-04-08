@@ -31,7 +31,7 @@ RewriteRule ^(.*)$ / [P]
 RewriteCond %{REQUEST_URI} ^/blog/(.*)$
 RewriteRule ^(.*)$ / [P]
 ```
-Theses line makes it so that requests that comes in that end with <code>/portfolio</code> or <code>/blog/[anything here]</code> will be routed to the main page (<code>/</code>), but will keep the originally requested URL. Keeping the originally requested URL is required for React Router to route to the correct part of the site.
+Theses line makes it so that requests that comes in that end with <code>/portfolio</code> or <code>/blog/*anything-here*</code> will be routed to the main page (<code>/</code>), but will keep the originally requested URL. Keeping the originally requested URL is required for React Router to route to the correct part of the site.
 
 After making the change to the .htaccess file, React Router worked as expected and routed the URLs correctly.
 
