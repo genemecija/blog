@@ -25,7 +25,7 @@ Instead, configure your server so that the default is to send back the main html
 ### A Server-Side Solution
 So the problem was with server routing rather on the client side. I use HostGator to host this site and the server routing configuration is done within the .htaccess file. I edited the file, adding the below lines:
 
-```
+```ApacheConf
 RewriteCond %{REQUEST_URI} ^/portfolio
 RewriteRule ^(.*)$ / [P]
 RewriteCond %{REQUEST_URI} ^/blog/(.*)$
